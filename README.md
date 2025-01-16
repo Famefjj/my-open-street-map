@@ -6,10 +6,10 @@ Custom map library, developed using the Flutter_map library, is designed to disp
 
 you must install all of following library :
 
-- latlong2
-- flutter_svg
-- url_launcher
-- flutter_map_cancellable_tile_provider
+- [latlong2](https://pub.dev/packages/latlong2/install)
+- [flutter_svg](https://pub.dev/packages/flutter_svg/install)
+- [url_launcher](https://pub.dev/packages/url_launcher/install)
+- [flutter_map_cancellable_tile_provider](https://pub.dev/packages/flutter_map_cancellable_tile_provider/install)
 
 ## How to use
 
