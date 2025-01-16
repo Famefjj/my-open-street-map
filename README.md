@@ -6,4 +6,4 @@ A new Flutter project.
 
 This is front-end for multiple GPS tracker developed using flutter. ( can take load up to 500 users )
 
-![til](./assets/Animation.gif)
+![til](https://github.com/Famefjj/my-open-street-map/blob/main/assets/Animation.gif)
