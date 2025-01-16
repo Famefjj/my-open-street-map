@@ -1,9 +1,45 @@
 # my_open_street_map
 
-A new Flutter project.
+Custom map library, developed using the Flutter_map library, is designed to display, mark, and track vehicles in a web application.
 
-## Getting Started
+## Flutter dependencies
 
-This is front-end for multiple GPS tracker developed using flutter. ( can take load up to 500 users )
+you must install all of following library :
+
+- latlong2
+- flutter_svg
+- url_launcher
+- flutter_map_cancellable_tile_provider
+
+## How to use
+
+1. create your flutter project
+2. Install all of above dependencies.
+3. Clone this repository to your projects using 'git clone ..'.
+4. inside your project, add following codes to your dependencies inside pubspec.yaml
+
+```yaml
+my_open_street_map:
+  path: { path to my_open_street_map project }
+```
+
+5. import library to your project by following :
+
+```dart
+import 'package:my_open_street_map/my_open_street_map.dart';
+```
+
+6. import these additional libraries as need
+
+```dart
+//==== you must import this yourself =====//
+import 'package:flutter_map_cancellable_tile_provider/flutter_map_cancellable_tile_provider.dart';
+import 'package:latlong2/latlong.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:url_launcher/url_launcher.dart';
+//========================================//
+```
+
+## Demonstration
 
 ![til](./assets/Animation.gif)
