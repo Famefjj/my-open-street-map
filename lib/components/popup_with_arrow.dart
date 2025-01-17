@@ -46,7 +46,9 @@ class _PopupWithArrowState extends State<PopupWithArrow> {
 
   @override
   Widget build(BuildContext context) {
-    return widget.container != null ? displayContainerWithArrow() : Container();
+    return widget.container != null
+        ? displayContainerWithArrow()
+        : const SizedBox.shrink();
   }
 }
 
