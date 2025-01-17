@@ -1,14 +1,15 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:flutter_map_cancellable_tile_provider/flutter_map_cancellable_tile_provider.dart';
 import 'package:my_open_street_map/my_open_street_map.dart';
 import '../models/simulate_cars_model.dart';
 
-//==== you must import this yourself =====//
+//==== you must import this yourself additional to my_open_street_map =====//
+import 'package:flutter_map_cancellable_tile_provider/flutter_map_cancellable_tile_provider.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:url_launcher/url_launcher.dart';
-//========================================//
+import 'package:my_open_street_map/models/map_pos_notifier_model.dart';
+//=========================================================================//
 
 class MapScreenTest extends StatelessWidget {
   MapScreenTest({super.key});

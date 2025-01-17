@@ -8,7 +8,7 @@ class SimulateCarsModel {
   Map<String, LatLng> carPosMap = {};
   Map<String, MyMarker> markers = {};
 
-  // final LatLng ref1 = LatLng(13.740491667143678, 100.52843224260232);
+  // final LatLn ref1 = LatLng(13.740491667143678, 100.52843224260232);
   // final LatLng ref2 = LatLng(13.744401, 100.814510);
   // final LatLng ref3 = LatLng(13.628823, 100.822143);
   // final LatLng ref4 = LatLng(13.632634, 100.529341);

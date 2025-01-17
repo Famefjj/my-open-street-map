@@ -37,6 +37,7 @@ import 'package:flutter_map_cancellable_tile_provider/flutter_map_cancellable_ti
 import 'package:latlong2/latlong.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:my_open_street_map/models/map_pos_notifier_model.dart';
 //========================================//
 ```
 
